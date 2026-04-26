@@ -640,10 +640,7 @@ describe('office-hours skill structure', () => {
     expect(content).toContain('Intrapreneurship');
   });
 
-  // YC founder discovery engine
-  test('contains YC apply CTA with ref tracking', () => {
-    expect(content).toContain('ycombinator.com/apply?ref=gstack');
-  });
+  // YC CTA removed — this fork runs without promotional ads
 
   test('contains "What I noticed" design doc section', () => {
     expect(content).toContain('What I noticed about how you think');

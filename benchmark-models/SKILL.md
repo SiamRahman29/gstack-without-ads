@@ -9,7 +9,10 @@ description: |
   for this skill?" with data instead of vibes. Separate from /benchmark, which
   measures web page performance. Use when: "benchmark models", "compare models",
   "which model is best for X", "cross-model comparison", "model shootout". (gstack)
-  Voice triggers (speech-to-text aliases): "compare models", "model shootout", "which model is best".
+voice-triggers:
+  - "compare models"
+  - "model shootout"
+  - "which model is best"
 triggers:
   - cross model benchmark
   - compare claude gpt gemini
